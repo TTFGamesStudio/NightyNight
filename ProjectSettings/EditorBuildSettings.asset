@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/SplashScreens/Scenes/NapTimeGames.unity
+    guid: 0257f9a6a78910f4c8e78e526a8dbaa6
+  - enabled: 1
+    path: Assets/SplashScreens/Scenes/Warnings.unity
+    guid: fdcfe900c754d9d47b6e71ff8943948d
   m_configObjects: {}
