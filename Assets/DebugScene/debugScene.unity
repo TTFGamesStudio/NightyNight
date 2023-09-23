@@ -421,6 +421,7 @@ GameObject:
   m_Component:
   - component: {fileID: 299186838}
   - component: {fileID: 299186837}
+  - component: {fileID: 299186839}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -458,6 +459,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &299186839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 299186836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9798cd1a9319512468a1a983f31ff645, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  settings: {fileID: 11400000, guid: 7770fdfe7cf2a244fac06badc2d71ac7, type: 2}
 --- !u!1 &875044627
 GameObject:
   m_ObjectHideFlags: 0
@@ -495,7 +509,6 @@ MonoBehaviour:
   rot: {x: 0, y: 0}
   input: {x: 0, y: 0}
   sharpness: 15
-  test: {fileID: 11400000, guid: b621b3bea64083d4984522a9a74dffb2, type: 2}
 --- !u!143 &875044629
 CharacterController:
   m_ObjectHideFlags: 0
