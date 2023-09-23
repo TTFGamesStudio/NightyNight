@@ -17,11 +17,9 @@ public class mouseLook : MonoBehaviour
 
     public float sharpness = 15;
 
-    public objective test;
     // Start is called before the first frame update
     void Start()
     {
-        objectiveManager.instance.updateObjective(test);
     }
 
     // Update is called once per frame
