@@ -1,0 +1,16 @@
+{
+    "name": "Player",
+    "rootNamespace": "NightNightEngine.Player",
+    "references": [
+        "GUID:ae6b739f75ea28647a2077f7f63825d4"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
